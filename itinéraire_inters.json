@@ -1,0 +1,301 @@
+[
+  {
+    "weight_name": "routability",
+    "legs": [
+      {
+        "summary": "Boulevard Voltaire, Rue du Chemin Vert",
+        "steps": [
+          {
+            "intersections": [
+              {
+                "bearings": [
+                  234
+                ],
+                "location": [
+                  2.37922,
+                  48.859024
+                ],
+                "entry": [
+                  true
+                ],
+                "geometry_index": 0,
+                "out": 0
+              },
+              {
+                "entry": [
+                  false,
+                  false,
+                  true,
+                  false
+                ],
+                "out": 2,
+                "location": [
+                  2.378654,
+                  48.858753
+                ],
+                "geometry_index": 2,
+                "in": 0,
+                "bearings": [
+                  54,
+                  132,
+                  231,
+                  308
+                ],
+                "duration": 1
+              }
+            ],
+            "name": "Rue Sedaine",
+            "distance": 58.401,
+            "maneuver": {
+              "type": "depart",
+              "location": [
+                2.37922,
+                48.859024
+              ],
+              "bearing_before": 0,
+              "bearing_after": 234,
+              "instruction": "Head southwest on Rue Sedaine"
+            },
+            "weight": 42.127,
+            "geometry": "{weiHcuoMp@hBBFFL",
+            "duration": 42.127,
+            "mode": "walking",
+            "driving_side": "right"
+          },
+          {
+            "intersections": [
+              {
+                "bearings": [
+                  51,
+                  132,
+                  235,
+                  313
+                ],
+                "entry": [
+                  false,
+                  true,
+                  true,
+                  true
+                ],
+                "location": [
+                  2.378582,
+                  48.858715
+                ],
+                "geometry_index": 3,
+                "in": 0,
+                "out": 3
+              }
+            ],
+            "name": "Boulevard Voltaire",
+            "distance": 172,
+            "maneuver": {
+              "type": "turn",
+              "instruction": "Turn right onto Boulevard Voltaire",
+              "location": [
+                2.378582,
+                48.858715
+              ],
+              "bearing_before": 231,
+              "modifier": "right",
+              "bearing_after": 313
+            },
+            "weight": 121.127,
+            "geometry": "}ueiHcqoMOXiD~GU`@",
+            "duration": 121.127,
+            "mode": "walking",
+            "driving_side": "right"
+          },
+          {
+            "intersections": [
+              {
+                "bearings": [
+                  65,
+                  133,
+                  243,
+                  313
+                ],
+                "entry": [
+                  true,
+                  false,
+                  true,
+                  true
+                ],
+                "location": [
+                  2.376848,
+                  48.859753
+                ],
+                "geometry_index": 6,
+                "in": 1,
+                "out": 2
+              },
+              {
+                "entry": [
+                  false,
+                  false,
+                  true,
+                  false
+                ],
+                "out": 2,
+                "location": [
+                  2.376768,
+                  48.859726
+                ],
+                "geometry_index": 7,
+                "in": 0,
+                "bearings": [
+                  63,
+                  132,
+                  245,
+                  313
+                ],
+                "duration": 1
+              },
+              {
+                "entry": [
+                  false,
+                  true,
+                  true,
+                  true
+                ],
+                "out": 2,
+                "location": [
+                  2.375842,
+                  48.859436
+                ],
+                "geometry_index": 11,
+                "in": 0,
+                "bearings": [
+                  65,
+                  148,
+                  244,
+                  346
+                ],
+                "duration": 1
+              },
+              {
+                "bearings": [
+                  64,
+                  243,
+                  339
+                ],
+                "entry": [
+                  false,
+                  true,
+                  true
+                ],
+                "location": [
+                  2.374963,
+                  48.859146
+                ],
+                "geometry_index": 14,
+                "in": 0,
+                "out": 1
+              }
+            ],
+            "name": "Rue du Chemin Vert",
+            "distance": 249,
+            "maneuver": {
+              "type": "turn",
+              "instruction": "Turn left onto Rue du Chemin Vert",
+              "location": [
+                2.376848,
+                48.859753
+              ],
+              "bearing_before": 313,
+              "modifier": "left",
+              "bearing_after": 243
+            },
+            "weight": 177.352,
+            "geometry": "m|eiHgfoMDNBLl@pC@DDPBJp@xCBHBLDPx@tDFR",
+            "duration": 177.352,
+            "mode": "walking",
+            "driving_side": "right"
+          },
+          {
+            "intersections": [
+              {
+                "bearings": [
+                  64,
+                  244,
+                  340
+                ],
+                "entry": [
+                  false,
+                  true,
+                  true
+                ],
+                "location": [
+                  2.373795,
+                  48.858768
+                ],
+                "geometry_index": 18,
+                "in": 0,
+                "out": 2
+              }
+            ],
+            "name": "Rue Moufle",
+            "distance": 53.67,
+            "maneuver": {
+              "type": "turn",
+              "instruction": "Turn right onto Rue Moufle",
+              "location": [
+                2.373795,
+                48.858768
+              ],
+              "bearing_before": 244,
+              "modifier": "right",
+              "bearing_after": 340
+            },
+            "weight": 37.796,
+            "geometry": "gveiHesnMIDoAl@",
+            "duration": 37.796,
+            "mode": "walking",
+            "driving_side": "right"
+          },
+          {
+            "intersections": [
+              {
+                "bearings": [
+                  159
+                ],
+                "location": [
+                  2.373539,
+                  48.859219
+                ],
+                "entry": [
+                  true
+                ],
+                "geometry_index": 20,
+                "in": 0
+              }
+            ],
+            "name": "Rue Moufle",
+            "distance": 0,
+            "maneuver": {
+              "type": "arrive",
+              "location": [
+                2.373539,
+                48.859219
+              ],
+              "bearing_before": 339,
+              "bearing_after": 0,
+              "instruction": "You have arrived at your destination"
+            },
+            "weight": 0,
+            "geometry": "ayeiHqqnM??",
+            "duration": 0,
+            "mode": "walking",
+            "driving_side": "right"
+          }
+        ],
+        "distance": 533.07,
+        "duration": 378.402,
+        "weight": 378.402
+      }
+    ],
+    "geometry": "{weiHcuoMp@hBBFFLOXiD~GU`@DNBLl@pC@DDPBJp@xCBHBLDPx@tDFRIDoAl@",
+    "distance": 533.07,
+    "duration": 378.402,
+    "weight": 378.402
+  }
+]
